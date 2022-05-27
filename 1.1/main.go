@@ -10,6 +10,7 @@ func main() {
 	for i := 1; i < len(os.Args); i++ {
 		s += sep + os.Args[i]
 		sep = " "
+		fmt.Printf("%v -%T", s, s)
 	}
-	fmt.Println(s)
+
 }
