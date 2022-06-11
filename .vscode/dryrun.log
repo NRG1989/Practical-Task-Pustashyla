@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/user/go/src/Practical-Task-Pustashyla'
+make: Leaving directory '/home/user/go/src/Practical-Task-Pustashyla'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
