@@ -1,0 +1,5 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/user/go/src/Practical-Task-Pustashyla/2.2'
+go run main.go 0ft
+make: Leaving directory '/home/user/go/src/Practical-Task-Pustashyla/2.2'
+ 

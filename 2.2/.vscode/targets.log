@@ -1,4 +1,6 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
 # GNU Make 4.2.1
 # Built for x86_64-pc-linux-gnu
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
@@ -6,7 +8,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 11 14:24:35 2022
+# Make data base, printed on Sun Jun 12 15:45:31 2022
 
 # Variables
 
@@ -91,11 +93,13 @@ GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/user/go/bin:/usr/local/go/bin
+ 
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/user/go/bin:/usr/local/go/bin:/usr/local/go/bin:/home/user/go/bin:/usr/local/go/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 SESSION_MANAGER = local/user-K55A:@/tmp/.ICE-unix/1131,unix/user-K55A:/tmp/.ICE-unix/1131
+ 
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -127,7 +131,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 100855
+GIO_LAUNCHED_DESKTOP_FILE_PID = 187242
 # automatic
 %F = $(notdir $%)
 # environment
@@ -161,6 +165,7 @@ LOGNAME = user
 # environment
 APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
+ 
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # environment
 SNAP_CONTEXT = nfmUje8OHct3neeAApWhfmCPccEaM-gxEIC5HcmWHxC962766GFw
@@ -193,7 +198,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-7432da51-8045-4ca2-854e-be3101604c1f.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-c63e6ea8-78bd-47a8-ab93-63521e7b4521.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -233,13 +238,12 @@ GDK_BACKEND = x11
 # environment
 LC_PAPER = be_BY.UTF-8
 # environment
-NO_AT_BRIDGE = 1
-# environment
 LC_IDENTIFICATION = be_BY.UTF-8
 # environment
 QT_ACCESSIBILITY = 1
 # default
 MAKEFILES := 
+ 
 # environment
 SNAP_COOKIE = nfmUje8OHct3neeAApWhfmCPccEaM-gxEIC5HcmWHxC962766GFw
 # environment
@@ -275,14 +279,9 @@ LC_ADDRESS = be_BY.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 70034
+VSCODE_PID = 187292
 # variable set hash-table stats:
-# Load=133/1024=13%, Rehash=0, Collisions=24/158=15%
- 
-Makefile:16: warning: overriding recipe for target 'c'
-Makefile:12: warning: ignoring old recipe for target 'c'
-make: *** No rule to make target 'all'.  Stop.
-
+# Load=132/1024=13%, Rehash=0, Collisions=24/157=15%
 
 # Pattern-specific Variable Values
 
@@ -314,11 +313,12 @@ b:
 	go run main.go 1.23lb
 
 c:
+ 
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 16):
-	go run main.go 32°C
+#  recipe to execute (from 'Makefile', line 12):
+	go run main.go 1e3c
 
 f:
 #  Implicit rule search has not been done.
@@ -346,10 +346,17 @@ lm:
 #  Modification time never checked.
 #  File has not been updated.
 
+cel:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 16):
+	go run main.go 32°C
+
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-11 14:21:39.148990886
+#  Last modified 2022-06-11 14:32:23.218253491
 #  File has been updated.
 #  Successfully updated.
 
@@ -394,19 +401,19 @@ b,kg,c,f,c,:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=15/1024=1%, Rehash=0, Collisions=0/31=0%
+# Load=16/1024=2%, Rehash=0, Collisions=0/31=0%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 27 / storage = 191 B / avg = 7 B
-# current buf: size = 8162 B / used = 191 B / count = 27 / avg = 7 B
+# strcache buffers: 1 (0) / strings = 28 / storage = 192 B / avg = 6 B
+# current buf: size = 8162 B / used = 192 B / count = 28 / avg = 6 B
 
-# strcache performance: lookups = 42 / hit rate = 35%
+# strcache performance: lookups = 42 / hit rate = 33%
 # hash-table stats:
-# Load=27/8192=0%, Rehash=0, Collisions=1/42=2%
-# Finished Make data base on Sat Jun 11 14:24:35 2022
+# Load=28/8192=0%, Rehash=0, Collisions=1/42=2%
+# Finished Make data base on Sun Jun 12 15:45:31 2022
 
  
