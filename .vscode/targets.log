@@ -2,13 +2,17 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target 'all'.  Stop.
 
 # GNU Make 4.2.1
+ 
 # Built for x86_64-pc-linux-gnu
+ 
 # Copyright (C) 1988-2016 Free Software Foundation, Inc.
+ 
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
+ 
 
-# Make data base, printed on Sat Jun 11 13:37:28 2022
+# Make data base, printed on Mon Jun 13 16:57:34 2022
 
 # Variables
 
@@ -53,6 +57,7 @@ VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{},"_languagePackSupport
 # environment
 JOURNAL_STREAM = 8:36661
 # environment
+ 
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # environment
 SNAP_INSTANCE_NAME = code
@@ -62,6 +67,8 @@ SNAP_ARCH = amd64
 MAKEFILE_LIST := 
 # automatic
 @F = $(notdir $@)
+# environment
+LC_MEASUREMENT = be_BY.UTF-8
 # environment
 GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
@@ -91,9 +98,10 @@ GOPROXY = https://proxy.golang.org,direct
 # environment
 GSETTINGS_SCHEMA_DIR = /snap/code/97/usr/share/glib-2.0/schemas
 # default
+ 
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/user/go/bin:/usr/local/go/bin
+PATH = /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:/home/user/go/bin:/usr/local/go/bin:/usr/local/go/bin:/home/user/go/bin:/usr/local/go/bin
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
@@ -113,6 +121,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 VSCODE_LOG_STACK = false
 # environment
+ 
 DISABLE_WAYLAND = 1
 # environment
 ELECTRON_RUN_AS_NODE = 1
@@ -129,7 +138,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 100855
+GIO_LAUNCHED_DESKTOP_FILE_PID = 247821
 # automatic
 %F = $(notdir $%)
 # environment
@@ -150,6 +159,7 @@ ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 GTK_MODULES = gail:atk-bridge
 # environment
 GOMODCACHE = /home/user/go/pkg/mod
+ 
 # environment
 HOME = /home/user
 # environment
@@ -165,29 +175,17 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
 # environment
- 
 SNAP_CONTEXT = nfmUje8OHct3neeAApWhfmCPccEaM-gxEIC5HcmWHxC962766GFw
- 
 # automatic
- 
 +F = $(notdir $+)
- 
 # environment
- 
 ELECTRON_NO_ATTACH_CONSOLE = 1
- 
 # environment
- 
 SNAP_USER_COMMON = /home/user/snap/code/common
- 
 # environment
- 
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
- 
 # environment
- 
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
- 
 # automatic
 ^D = $(patsubst %/,%,$(dir $^))
 # environment
@@ -207,7 +205,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-01598780-d042-4084-ab39-62bee27bdd6b.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ed9bdc3f-df76-4a88-b049-e4af8a670c3d.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -247,8 +245,6 @@ GDK_BACKEND = x11
 # environment
 LC_PAPER = be_BY.UTF-8
 # environment
-NO_AT_BRIDGE = 1
-# environment
 LC_IDENTIFICATION = be_BY.UTF-8
 # environment
 QT_ACCESSIBILITY = 1
@@ -261,7 +257,9 @@ LC_NUMERIC = be_BY.UTF-8
 # automatic
 <F = $(notdir $<)
 # environment
-LC_MEASUREMENT = be_BY.UTF-8
+PHANTOMJS_PLATFORM = linux
+# environment
+PHANTOMJS_ARCH = x64
 # environment
 SNAP_NAME = code
 # environment
@@ -289,9 +287,9 @@ LC_ADDRESS = be_BY.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 70034
+VSCODE_PID = 247869
 # variable set hash-table stats:
-# Load=133/1024=13%, Rehash=0, Collisions=24/155=15%
+# Load=134/1024=13%, Rehash=0, Collisions=26/156=17%
 
 # Pattern-specific Variable Values
 
@@ -299,9 +297,9 @@ VSCODE_PID = 70034
 
 # Directories
 
-# . (device 2050, inode 5247690): 15 files, no impossibilities.
+# . (device 2050, inode 5247690): 21 files, no impossibilities.
 
-# 15 files, no impossibilities in 1 directories.
+# 21 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -324,6 +322,7 @@ Makefile:
 #  Failed to be updated.
 
 # Not a target:
+ 
 makefile:
 #  Implicit rule search has been done.
 #  File does not exist.
@@ -351,12 +350,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 23 / storage = 150 B / avg = 6 B
-# current buf: size = 8162 B / used = 150 B / count = 23 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 29 / storage = 175 B / avg = 6 B
+# current buf: size = 8162 B / used = 175 B / count = 29 / avg = 6 B
 
-# strcache performance: lookups = 26 / hit rate = 11%
+# strcache performance: lookups = 32 / hit rate = 9%
 # hash-table stats:
-# Load=23/8192=0%, Rehash=0, Collisions=1/26=4%
-# Finished Make data base on Sat Jun 11 13:37:28 2022
+# Load=29/8192=0%, Rehash=0, Collisions=5/32=16%
+# Finished Make data base on Mon Jun 13 16:57:34 2022
 
  
